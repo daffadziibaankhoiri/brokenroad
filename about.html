@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Kami · BrokenRoad</title>
+  <meta name="description" content="Tentang BrokenRoad: latar belakang, cara kerja, dan tim penyusun WebGIS kerusakan Jl. A. Yani Banjarmasin–Banjarbaru.">
+  <link rel="icon" href="assets/placeholder-road.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="brand" aria-label="BrokenRoad beranda">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 2C10.5 2 6 6.4 6 11.9 6 19.3 16 30 16 30s10-10.7 10-18.1C26 6.4 21.5 2 16 2z" fill="#F1F5F9"/>
+        <path d="M13 6h6l2.5 13h-11z" fill="#0B1120"/>
+        <path d="M16 7.5v2.5M16 12v2.5M16 16.5v2" stroke="#F59E0B" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span>BrokenRoad<i class="dot">.</i></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#peta">Peta Interaktif</a>
+      <a href="about.html" aria-current="page">Tentang Kami</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Pembuka -->
+    <header class="hero hero--page">
+      <div class="container">
+        <p class="hero__kicker mono">Tentang Kami</p>
+        <h1>Peta lubang, <mark>bukan</mark> peta keluhan.</h1>
+        <p class="lead">BrokenRoad adalah tugas akhir Geoinformatika yang memetakan kerusakan permukaan Jl. A. Yani dari Banjarmasin sampai Banjarbaru, lalu mengurutkan ruas mana yang paling mendesak untuk diperbaiki.</p>
+        <div class="hero__actions">
+          <a href="index.html#peta" class="btn-primary">Buka peta interaktif</a>
+          <a href="#tim" class="btn-ghost">Kenalan dengan tim ↓</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 01 Kenapa dibuat -->
+    <section class="container section">
+      <div class="about-split">
+        <div class="section-head reveal">
+          <p class="section-head__index mono">01 · Kenapa dibuat</p>
+          <h2>Jalan yang sama, dilewati setiap hari.</h2>
+          <div class="prose">
+            <p>Jl. A. Yani adalah jalur utama yang menghubungkan Banjarmasin dan Banjarbaru. Setiap hari jalan ini dipakai pekerja, pelajar, angkutan barang, dan kendaraan menuju bandara. Di jalan seramai ini, kerusakan kecil cepat jadi masalah besar: kendaraan melambat, antrean memanjang, dan risiko kecelakaan naik.</p>
+            <p>Informasi soal jalan rusak biasanya tersebar di foto media sosial atau laporan yang sulit dibandingkan satu sama lain. BrokenRoad merapikannya ke dalam satu peta: di mana rusaknya, seberapa parah, dan ruas mana yang sebaiknya didahulukan.</p>
+          </div>
+        </div>
+        <aside class="card can-do reveal">
+          <h3>Yang bisa kamu lakukan di sini</h3>
+          <ul class="check-list">
+            <li>Melihat titik kerusakan beserta foto dan ukurannya</li>
+            <li>Menyaring per arah (pergi/pulang), tingkat kerusakan, atau wilayah</li>
+            <li>Melihat urutan ruas yang paling perlu diperbaiki</li>
+            <li>Mengecek jalan pengalihan bila sebuah ruas ditutup</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 02 Cara kerja -->
+    <section class="container section">
+      <div class="section-head reveal">
+        <p class="section-head__index mono">02 · Cara kerja</p>
+        <h2>Dari survei lapangan sampai peta web.</h2>
+        <p class="section-head__sub">Tiga langkah singkat di balik setiap titik di peta.</p>
+      </div>
+      <ol class="steps">
+        <li class="card step reveal">
+          <span class="step__num mono">01</span>
+          <h3>Survei lapangan</h3>
+          <p>Koridor 36 km ditelusuri dua arah, pergi dan pulang, lalu dibagi per ±500 m. Setiap kerusakan dicatat: jenis, ukuran, tingkat keparahan, koordinat, dan fotonya.</p>
+        </li>
+        <li class="card step reveal">
+          <span class="step__num mono">02</span>
+          <h3>Olah di QGIS</h3>
+          <p>Data survei digabung dengan jaringan jalan dan fasilitas umum dari OpenStreetMap. QGIS dipakai untuk mencari simpang terdekat dan fasilitas umum di sekitar setiap ruas.</p>
+        </li>
+        <li class="card step reveal">
+          <span class="step__num mono">03</span>
+          <h3>Tentukan prioritas</h3>
+          <p>Setiap ruas dinilai dari lima hal di bawah, lalu diberi label prioritas Tinggi, Sedang, atau Rendah. Hasilnya tampil di peta interaktif.</p>
+        </li>
+      </ol>
+
+      <div class="card factors reveal">
+        <h3>Lima hal yang menentukan prioritas</h3>
+        <ul class="factor-list">
+          <li><b>Seberapa parah rusaknya</b><span>Faktor paling berpengaruh</span></li>
+          <li><b>Seberapa macet lalu lintasnya</b><span>Lancar, padat, atau macet</span></li>
+          <li><b>Seberapa panjang bagian yang rusak</b><span>Dibanding panjang ruas</span></li>
+          <li><b>Ada fasilitas umum di dekatnya</b><span>Sekolah, pasar, rumah sakit, kantor</span></li>
+          <li><b>Seberapa jauh jalan memutarnya</b><span>Kalau ruas harus ditutup</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 03 Tim -->
+    <section id="tim" class="container section">
+      <div class="section-head reveal">
+        <p class="section-head__index mono">03 · Tim penyusun</p>
+        <h2>Orang di balik peta.</h2>
+      </div>
+      <div class="people">
+        <article class="card person reveal">
+          <span class="avatar mono" aria-hidden="true">MI</span>
+          <div>
+            <h3>Madzharul Ilmi</h3>
+            <p class="mono person__nim">NIM 2510817210024</p>
+            <p class="person__meta">S1 Teknologi Informasi · FT ULM</p>
+          </div>
+        </article>
+        <article class="card person reveal">
+          <span class="avatar mono" aria-hidden="true">DK</span>
+          <div>
+            <h3>Daffa Dziiba'an Khoiri</h3>
+            <p class="mono person__nim">NIM 2510817210005</p>
+            <p class="person__meta">S1 Teknologi Informasi · FT ULM</p>
+          </div>
+        </article>
+        <article class="card course reveal">
+          <p class="mono course__label">Tugas akhir</p>
+          <h3>Mata Kuliah Geoinformatika</h3>
+          <p>Program Studi S1 Teknologi Informasi<br>Fakultas Teknik<br>Universitas Lambung Mangkurat · 2026</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 04 Catatan data -->
+    <section class="container section">
+      <div class="section-head reveal">
+        <p class="section-head__index mono">04 · Catatan data</p>
+        <h2>Sumber dan batasannya.</h2>
+      </div>
+      <div class="notes">
+        <div class="card note reveal">
+          <h3>Sumber data</h3>
+          <ul>
+            <li>Survei lapangan koridor Jl. A. Yani, pergi–pulang</li>
+            <li>Jaringan jalan &amp; fasilitas umum dari OpenStreetMap (plugin QuickOSM)</li>
+            <li>Analisis dan ekspor GeoJSON dari QGIS 3.x</li>
+          </ul>
+        </div>
+        <div class="card note note--warn reveal">
+          <h3>Yang perlu diingat</h3>
+          <ul>
+            <li>Data di versi ini masih <b>sampel ilustratif</b>, belum hasil survei final.</li>
+            <li>Kondisi jalan bisa berubah setelah survei dilakukan.</li>
+            <li>BrokenRoad adalah alat bantu melihat gambaran, bukan laporan resmi pemerintah.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Penutup -->
+    <section class="container section">
+      <div class="cta-strip reveal">
+        <div>
+          <h2>Sudah siap lihat lubangnya?</h2>
+          <p>“Cukup jalan yang rusak, hati ku jangan.”</p>
+        </div>
+        <a href="index.html#peta" class="btn-primary">Buka peta interaktif</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand brand--light"><span>BrokenRoad<i class="dot">.</i></span></div>
+        <p>Tugas akhir Mata Kuliah Geoinformatika, Program Studi S1 Teknologi Informasi, Fakultas Teknik, Universitas Lambung Mangkurat, 2026.</p>
+      </div>
+      <div>
+        <h4>Jelajahi</h4>
+        <ul class="team">
+          <li><a href="index.html#peta">Peta Interaktif</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sumber Data</h4>
+        <ul>
+          <li>Survei lapangan koridor Jl. A. Yani (pergi–pulang)</li>
+          <li>OpenStreetMap via plugin QuickOSM</li>
+          <li>GeoJSON hasil ekspor QGIS 3.x</li>
+        </ul>
+      </div>
+    </div>
+    <p class="container footer-note">Peta dasar © OpenStreetMap contributors, Tiles © Esri. Data pada versi ini adalah sampel ilustratif.</p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/anim.js"></script>
+</body>
+</html>

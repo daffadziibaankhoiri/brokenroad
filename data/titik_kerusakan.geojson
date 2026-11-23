@@ -1,0 +1,3972 @@
+{
+ "type": "FeatureCollection",
+ "name": "titik_kerusakan",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-001",
+    "id_segmen": "SEG-PG-001",
+    "ruas": "Jl. A. Yani Km 0,0–0,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Tengah",
+    "km": 0.37,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1,
+    "lebar_m": 0.71,
+    "kedalaman_cm": 3,
+    "kemacetan": "Macet",
+    "elemen_terdekat": "Simpang Jl. Pangeran Antasari (63 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.5988,
+     -3.322679
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-002",
+    "id_segmen": "SEG-PG-001",
+    "ruas": "Jl. A. Yani Km 0,0–0,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Tengah",
+    "km": 0.38,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.33,
+    "lebar_m": 1.38,
+    "kedalaman_cm": 6,
+    "kemacetan": "Macet",
+    "elemen_terdekat": "Simpang Jl. Pangeran Antasari (73 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.598876,
+     -3.322736
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-003",
+    "id_segmen": "SEG-PG-002",
+    "ruas": "Jl. A. Yani Km 0,5–1,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Tengah",
+    "km": 0.61,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.22,
+    "lebar_m": 0.71,
+    "kedalaman_cm": 5,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.5,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.600573,
+     -3.323661
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-004",
+    "id_segmen": "SEG-PG-002",
+    "ruas": "Jl. A. Yani Km 0,5–1,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Tengah",
+    "km": 0.77,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.45,
+    "lebar_m": 0.27,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.5,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.601872,
+     -3.324038
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-005",
+    "id_segmen": "SEG-PG-004",
+    "ruas": "Jl. A. Yani Km 1,5–2,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Tengah",
+    "km": 1.61,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 4.7,
+    "lebar_m": 3.78,
+    "kedalaman_cm": 9,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "RSUD Ulin Banjarmasin",
+    "skor_saw": 2.7,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.607957,
+     -3.327556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-006",
+    "id_segmen": "SEG-PG-004",
+    "ruas": "Jl. A. Yani Km 1,5–2,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Tengah",
+    "km": 1.94,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 2.58,
+    "lebar_m": 1.14,
+    "kedalaman_cm": 10,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "RSUD Ulin Banjarmasin",
+    "skor_saw": 2.7,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.610234,
+     -3.329055
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-007",
+    "id_segmen": "SEG-PG-008",
+    "ruas": "Jl. A. Yani Km 3,5–4,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Selatan",
+    "km": 3.85,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.31,
+    "lebar_m": 0.39,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.85,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.620251,
+     -3.341519
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-008",
+    "id_segmen": "SEG-PG-009",
+    "ruas": "Jl. A. Yani Km 4,0–4,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Selatan",
+    "km": 4.48,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.89,
+    "lebar_m": 0.54,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": "APILL Simpang Km 4,5 (21 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 1.85,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.623429,
+     -3.345719
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-009",
+    "id_segmen": "SEG-PG-012",
+    "ruas": "Jl. A. Yani Km 5,5–6,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Selatan",
+    "km": 5.92,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.5,
+    "lebar_m": 1.93,
+    "kedalaman_cm": 4,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.630798,
+     -3.355314
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-010",
+    "id_segmen": "SEG-PG-012",
+    "ruas": "Jl. A. Yani Km 5,5–6,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Selatan",
+    "km": 5.72,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.51,
+    "lebar_m": 0.94,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-03"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.62979,
+     -3.353965
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-011",
+    "id_segmen": "SEG-PG-012",
+    "ruas": "Jl. A. Yani Km 5,5–6,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Selatan",
+    "km": 5.56,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.94,
+    "lebar_m": 0.4,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.628986,
+     -3.352959
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-012",
+    "id_segmen": "SEG-PG-012",
+    "ruas": "Jl. A. Yani Km 5,5–6,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Selatan",
+    "km": 5.79,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.62,
+    "lebar_m": 1.37,
+    "kedalaman_cm": 4,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.630158,
+     -3.354479
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-013",
+    "id_segmen": "SEG-PG-015",
+    "ruas": "Jl. A. Yani Km 7,0–7,5",
+    "arah": "Pergi",
+    "kecamatan": "Kertak Hanyar",
+    "km": 7.17,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 4.46,
+    "lebar_m": 3.96,
+    "kedalaman_cm": 12,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.637186,
+     -3.363707
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-014",
+    "id_segmen": "SEG-PG-015",
+    "ruas": "Jl. A. Yani Km 7,0–7,5",
+    "arah": "Pergi",
+    "kecamatan": "Kertak Hanyar",
+    "km": 7.22,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.04,
+    "lebar_m": 1.71,
+    "kedalaman_cm": 6,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.637404,
+     -3.364015
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-015",
+    "id_segmen": "SEG-PG-017",
+    "ruas": "Jl. A. Yani Km 8,0–8,5",
+    "arah": "Pergi",
+    "kecamatan": "Kertak Hanyar",
+    "km": 8.46,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.92,
+    "lebar_m": 1.59,
+    "kedalaman_cm": 6,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "Kantor Kecamatan Kertak Hanyar",
+    "skor_saw": 1.5,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.643683,
+     -3.372313
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-016",
+    "id_segmen": "SEG-PG-017",
+    "ruas": "Jl. A. Yani Km 8,0–8,5",
+    "arah": "Pergi",
+    "kecamatan": "Kertak Hanyar",
+    "km": 8.11,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.03,
+    "lebar_m": 0.32,
+    "kedalaman_cm": 3,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": "U-Turn Km 8 (15 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 1.5,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.641951,
+     -3.370006
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-017",
+    "id_segmen": "SEG-PG-020",
+    "ruas": "Jl. A. Yani Km 9,5–10,0",
+    "arah": "Pergi",
+    "kecamatan": "Kertak Hanyar",
+    "km": 9.73,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.02,
+    "lebar_m": 1.92,
+    "kedalaman_cm": 11,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": "APILL Simpang Kertak Hanyar (28 m)",
+    "fasilitas_200m": "Pasar Kertak Hanyar",
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.650195,
+     -3.380788
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-018",
+    "id_segmen": "SEG-PG-025",
+    "ruas": "Jl. A. Yani Km 12,0–12,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 12.06,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.92,
+    "lebar_m": 1.99,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.662131,
+     -3.396374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-019",
+    "id_segmen": "SEG-PG-025",
+    "ruas": "Jl. A. Yani Km 12,0–12,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 12.15,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.14,
+    "lebar_m": 0.7,
+    "kedalaman_cm": 1,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": "U-Turn Km 12 (47 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.662547,
+     -3.396974
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-020",
+    "id_segmen": "SEG-PG-025",
+    "ruas": "Jl. A. Yani Km 12,0–12,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 12.27,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.41,
+    "lebar_m": 0.88,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": "U-Turn Km 12 (70 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.663188,
+     -3.397799
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-021",
+    "id_segmen": "SEG-PG-025",
+    "ruas": "Jl. A. Yani Km 12,0–12,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 12.04,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.03,
+    "lebar_m": 0.75,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.662031,
+     -3.396235
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-022",
+    "id_segmen": "SEG-PG-029",
+    "ruas": "Jl. A. Yani Km 14,0–14,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 14.15,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.17,
+    "lebar_m": 0.36,
+    "kedalaman_cm": 3,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "Pasar Gambut",
+    "skor_saw": 2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.672793,
+     -3.410339
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-023",
+    "id_segmen": "SEG-PG-029",
+    "ruas": "Jl. A. Yani Km 14,0–14,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 14.03,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.84,
+    "lebar_m": 1.28,
+    "kedalaman_cm": 5,
+    "kemacetan": "Padat",
+    "elemen_terdekat": "APILL Simpang Empat Gambut (31 m)",
+    "fasilitas_200m": "Pasar Gambut",
+    "skor_saw": 2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.672138,
+     -3.409547
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-024",
+    "id_segmen": "SEG-PG-032",
+    "ruas": "Jl. A. Yani Km 15,5–16,0",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 15.75,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.17,
+    "lebar_m": 2.94,
+    "kedalaman_cm": 13,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "SMA Negeri 1 Gambut",
+    "skor_saw": 2.05,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.680925,
+     -3.421048
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-025",
+    "id_segmen": "SEG-PG-034",
+    "ruas": "Jl. A. Yani Km 16,5–17,0",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 16.76,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.89,
+    "lebar_m": 1.64,
+    "kedalaman_cm": 9,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.685936,
+     -3.427835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-026",
+    "id_segmen": "SEG-PG-034",
+    "ruas": "Jl. A. Yani Km 16,5–17,0",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 16.77,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.54,
+    "lebar_m": 0.77,
+    "kedalaman_cm": 1,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.685976,
+     -3.427888
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-027",
+    "id_segmen": "SEG-PG-034",
+    "ruas": "Jl. A. Yani Km 16,5–17,0",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 16.59,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 4.07,
+    "lebar_m": 1.39,
+    "kedalaman_cm": 10,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "Kantor Kecamatan Gambut",
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.685135,
+     -3.426727
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-028",
+    "id_segmen": "SEG-PG-036",
+    "ruas": "Jl. A. Yani Km 17,5–18,0",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 17.94,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.05,
+    "lebar_m": 0.94,
+    "kedalaman_cm": 6,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.691789,
+     -3.435913
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-029",
+    "id_segmen": "SEG-PG-036",
+    "ruas": "Jl. A. Yani Km 17,5–18,0",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 17.73,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.3,
+    "lebar_m": 1.84,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.690758,
+     -3.434425
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-030",
+    "id_segmen": "SEG-PG-037",
+    "ruas": "Jl. A. Yani Km 18,0–18,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 18.17,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.87,
+    "lebar_m": 0.31,
+    "kedalaman_cm": 2,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.692935,
+     -3.437472
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-031",
+    "id_segmen": "SEG-PG-037",
+    "ruas": "Jl. A. Yani Km 18,0–18,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 18.39,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.75,
+    "lebar_m": 0.77,
+    "kedalaman_cm": 2,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.694001,
+     -3.438962
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-032",
+    "id_segmen": "SEG-PG-037",
+    "ruas": "Jl. A. Yani Km 18,0–18,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 18.35,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.71,
+    "lebar_m": 0.41,
+    "kedalaman_cm": 1,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.693817,
+     -3.438676
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-033",
+    "id_segmen": "SEG-PG-037",
+    "ruas": "Jl. A. Yani Km 18,0–18,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km": 18.41,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.31,
+    "lebar_m": 1.44,
+    "kedalaman_cm": 4,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.694124,
+     -3.439062
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-034",
+    "id_segmen": "SEG-PG-045",
+    "ruas": "Jl. A. Yani Km 22,0–22,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 22.28,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 0.84,
+    "lebar_m": 1.52,
+    "kedalaman_cm": 5,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.85,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.723518,
+     -3.442817
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-035",
+    "id_segmen": "SEG-PG-045",
+    "ruas": "Jl. A. Yani Km 22,0–22,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 22.18,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.31,
+    "lebar_m": 1.71,
+    "kedalaman_cm": 10,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "SD Negeri Liang Anggang",
+    "skor_saw": 1.85,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.722694,
+     -3.442903
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-036",
+    "id_segmen": "SEG-PG-046",
+    "ruas": "Jl. A. Yani Km 22,5–23,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 22.6,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.45,
+    "lebar_m": 0.89,
+    "kedalaman_cm": 6,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.726247,
+     -3.442531
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-037",
+    "id_segmen": "SEG-PG-049",
+    "ruas": "Jl. A. Yani Km 24,0–24,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 24.22,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.96,
+    "lebar_m": 0.89,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.6,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.739762,
+     -3.441359
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-038",
+    "id_segmen": "SEG-PG-049",
+    "ruas": "Jl. A. Yani Km 24,0–24,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 24.04,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.08,
+    "lebar_m": 0.42,
+    "kedalaman_cm": 3,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.6,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.73831,
+     -3.441485
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-039",
+    "id_segmen": "SEG-PG-049",
+    "ruas": "Jl. A. Yani Km 24,0–24,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 24.29,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.41,
+    "lebar_m": 0.8,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.6,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.740345,
+     -3.441269
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-040",
+    "id_segmen": "SEG-PG-049",
+    "ruas": "Jl. A. Yani Km 24,0–24,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 24.31,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.66,
+    "lebar_m": 0.41,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.6,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.740502,
+     -3.44126
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-041",
+    "id_segmen": "SEG-PG-050",
+    "ruas": "Jl. A. Yani Km 24,5–25,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 24.92,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.6,
+    "lebar_m": 1.6,
+    "kedalaman_cm": 10,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.745561,
+     -3.441926
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-042",
+    "id_segmen": "SEG-PG-050",
+    "ruas": "Jl. A. Yani Km 24,5–25,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 24.77,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.07,
+    "lebar_m": 1.24,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.744362,
+     -3.441506
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-043",
+    "id_segmen": "SEG-PG-050",
+    "ruas": "Jl. A. Yani Km 24,5–25,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 24.6,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.06,
+    "lebar_m": 0.68,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.742983,
+     -3.441169
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-044",
+    "id_segmen": "SEG-PG-050",
+    "ruas": "Jl. A. Yani Km 24,5–25,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 24.6,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.39,
+    "lebar_m": 0.7,
+    "kedalaman_cm": 1,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.743005,
+     -3.441145
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-045",
+    "id_segmen": "SEG-PG-051",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 25.15,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.96,
+    "lebar_m": 0.6,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.747404,
+     -3.442534
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-046",
+    "id_segmen": "SEG-PG-051",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 25.46,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.92,
+    "lebar_m": 0.62,
+    "kedalaman_cm": 1,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "Kantor Bandara Syamsudin Noor",
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.749932,
+     -3.442821
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-047",
+    "id_segmen": "SEG-PG-051",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 25.16,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 0.85,
+    "lebar_m": 1.7,
+    "kedalaman_cm": 5,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.747477,
+     -3.44256
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-048",
+    "id_segmen": "SEG-PG-051",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 25.47,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.6,
+    "lebar_m": 0.51,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "Kantor Bandara Syamsudin Noor",
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.750063,
+     -3.442871
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-049",
+    "id_segmen": "SEG-PG-053",
+    "ruas": "Jl. A. Yani Km 26,0–26,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 26.4,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.05,
+    "lebar_m": 0.2,
+    "kedalaman_cm": 3,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.3,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.757824,
+     -3.443739
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-050",
+    "id_segmen": "SEG-PG-057",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 28.38,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.35,
+    "lebar_m": 0.24,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.774136,
+     -3.44702
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-051",
+    "id_segmen": "SEG-PG-057",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 28.36,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.07,
+    "lebar_m": 0.56,
+    "kedalaman_cm": 1,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.773941,
+     -3.44697
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-052",
+    "id_segmen": "SEG-PG-057",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 28.4,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 0.93,
+    "lebar_m": 1.49,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.77427,
+     -3.447085
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-053",
+    "id_segmen": "SEG-PG-057",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 28.24,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.65,
+    "lebar_m": 1.06,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.772984,
+     -3.446688
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-054",
+    "id_segmen": "SEG-PG-059",
+    "ruas": "Jl. A. Yani Km 29,0–29,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 29.09,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.34,
+    "lebar_m": 0.3,
+    "kedalaman_cm": 1,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.77989,
+     -3.448303
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-055",
+    "id_segmen": "SEG-PG-059",
+    "ruas": "Jl. A. Yani Km 29,0–29,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 29.12,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.27,
+    "lebar_m": 0.98,
+    "kedalaman_cm": 3,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.780138,
+     -3.448294
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-056",
+    "id_segmen": "SEG-PG-061",
+    "ruas": "Jl. A. Yani Km 30,0–30,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 30.06,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.31,
+    "lebar_m": 3.12,
+    "kedalaman_cm": 6,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.85,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.788026,
+     -3.448746
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-057",
+    "id_segmen": "SEG-PG-065",
+    "ruas": "Jl. A. Yani Km 32,0–32,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 32.43,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.95,
+    "lebar_m": 0.7,
+    "kedalaman_cm": 1,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "SMK Negeri Banjarbaru",
+    "skor_saw": 2.5,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.807243,
+     -3.446556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-058",
+    "id_segmen": "SEG-PG-065",
+    "ruas": "Jl. A. Yani Km 32,0–32,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 32.19,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.77,
+    "lebar_m": 0.88,
+    "kedalaman_cm": 5,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.5,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.805449,
+     -3.447368
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-059",
+    "id_segmen": "SEG-PG-065",
+    "ruas": "Jl. A. Yani Km 32,0–32,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 32.25,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.52,
+    "lebar_m": 0.5,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "SMK Negeri Banjarbaru",
+    "skor_saw": 2.5,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.80588,
+     -3.447172
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-060",
+    "id_segmen": "SEG-PG-065",
+    "ruas": "Jl. A. Yani Km 32,0–32,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 32.22,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.32,
+    "lebar_m": 1.04,
+    "kedalaman_cm": 4,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "SMK Negeri Banjarbaru",
+    "skor_saw": 2.5,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.805672,
+     -3.447281
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-061",
+    "id_segmen": "SEG-PG-066",
+    "ruas": "Jl. A. Yani Km 32,5–33,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 32.87,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.66,
+    "lebar_m": 0.56,
+    "kedalaman_cm": 1,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.95,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.810796,
+     -3.445522
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-062",
+    "id_segmen": "SEG-PG-066",
+    "ruas": "Jl. A. Yani Km 32,5–33,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 32.82,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 0.92,
+    "lebar_m": 1.41,
+    "kedalaman_cm": 5,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.95,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.810363,
+     -3.44557
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-063",
+    "id_segmen": "SEG-PG-068",
+    "ruas": "Jl. A. Yani Km 33,5–34,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 33.73,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.41,
+    "lebar_m": 0.7,
+    "kedalaman_cm": 6,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.75,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-03"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.817752,
+     -3.443654
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-064",
+    "id_segmen": "SEG-PG-072",
+    "ruas": "Jl. A. Yani Km 35,5–36,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 35.89,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 0.81,
+    "lebar_m": 1.26,
+    "kedalaman_cm": 3,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.835724,
+     -3.442901
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-065",
+    "id_segmen": "SEG-PG-072",
+    "ruas": "Jl. A. Yani Km 35,5–36,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 35.59,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.43,
+    "lebar_m": 0.97,
+    "kedalaman_cm": 5,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "Universitas Lambung Mangkurat Banjarbaru",
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.833204,
+     -3.442866
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-066",
+    "id_segmen": "SEG-PG-072",
+    "ruas": "Jl. A. Yani Km 35,5–36,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 35.96,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.99,
+    "lebar_m": 2.03,
+    "kedalaman_cm": 15,
+    "kemacetan": "Macet",
+    "elemen_terdekat": "Bundaran Simpang Empat Banjarbaru (40 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.836312,
+     -3.4429
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-067",
+    "id_segmen": "SEG-PG-072",
+    "ruas": "Jl. A. Yani Km 35,5–36,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km": 35.86,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.32,
+    "lebar_m": 0.34,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.835493,
+     -3.442891
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-068",
+    "id_segmen": "SEG-PL-071",
+    "ruas": "Jl. A. Yani Km 0,5–1,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarmasin Tengah",
+    "km": 0.57,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 1.52,
+    "lebar_m": 1.86,
+    "kedalaman_cm": 9,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.60016,
+     -3.323681
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-069",
+    "id_segmen": "SEG-PL-071",
+    "ruas": "Jl. A. Yani Km 0,5–1,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarmasin Tengah",
+    "km": 0.63,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.26,
+    "lebar_m": 1.28,
+    "kedalaman_cm": 5,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.600682,
+     -3.323838
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-070",
+    "id_segmen": "SEG-PL-068",
+    "ruas": "Jl. A. Yani Km 2,0–2,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarmasin Selatan",
+    "km": 2.23,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 2.55,
+    "lebar_m": 1.91,
+    "kedalaman_cm": 11,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "Pusat Perbelanjaan Km 2",
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.612122,
+     -3.330676
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-071",
+    "id_segmen": "SEG-PL-064",
+    "ruas": "Jl. A. Yani Km 4,0–4,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarmasin Selatan",
+    "km": 4.25,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 2.32,
+    "lebar_m": 3.42,
+    "kedalaman_cm": 11,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.622157,
+     -3.344288
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-072",
+    "id_segmen": "SEG-PL-064",
+    "ruas": "Jl. A. Yani Km 4,0–4,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarmasin Selatan",
+    "km": 4.12,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.35,
+    "lebar_m": 0.73,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-03"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.621491,
+     -3.343389
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-073",
+    "id_segmen": "SEG-PL-060",
+    "ruas": "Jl. A. Yani Km 6,0–6,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 6.44,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.88,
+    "lebar_m": 3.4,
+    "kedalaman_cm": 6,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.1,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.633337,
+     -3.358947
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-074",
+    "id_segmen": "SEG-PL-057",
+    "ruas": "Jl. A. Yani Km 7,5–8,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 7.68,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.53,
+    "lebar_m": 2.43,
+    "kedalaman_cm": 11,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.639643,
+     -3.367209
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-075",
+    "id_segmen": "SEG-PL-057",
+    "ruas": "Jl. A. Yani Km 7,5–8,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 7.62,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.71,
+    "lebar_m": 0.84,
+    "kedalaman_cm": 4,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.639335,
+     -3.366786
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-076",
+    "id_segmen": "SEG-PL-057",
+    "ruas": "Jl. A. Yani Km 7,5–8,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 7.97,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.8,
+    "lebar_m": 0.94,
+    "kedalaman_cm": 3,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.641071,
+     -3.369129
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-077",
+    "id_segmen": "SEG-PL-055",
+    "ruas": "Jl. A. Yani Km 8,5–9,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 8.59,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.58,
+    "lebar_m": 0.91,
+    "kedalaman_cm": 3,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "Kantor Kecamatan Kertak Hanyar",
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.644252,
+     -3.373328
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-078",
+    "id_segmen": "SEG-PL-055",
+    "ruas": "Jl. A. Yani Km 8,5–9,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 8.81,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.06,
+    "lebar_m": 1.05,
+    "kedalaman_cm": 4,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.645343,
+     -3.374778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-079",
+    "id_segmen": "SEG-PL-055",
+    "ruas": "Jl. A. Yani Km 8,5–9,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 8.91,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.92,
+    "lebar_m": 0.53,
+    "kedalaman_cm": 2,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.645876,
+     -3.375418
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-080",
+    "id_segmen": "SEG-PL-054",
+    "ruas": "Jl. A. Yani Km 9,0–9,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 9.16,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.81,
+    "lebar_m": 0.34,
+    "kedalaman_cm": 3,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.7,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.647165,
+     -3.37709
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-081",
+    "id_segmen": "SEG-PL-054",
+    "ruas": "Jl. A. Yani Km 9,0–9,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 9.19,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 1.87,
+    "lebar_m": 3.66,
+    "kedalaman_cm": 10,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.7,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.647315,
+     -3.377326
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-082",
+    "id_segmen": "SEG-PL-054",
+    "ruas": "Jl. A. Yani Km 9,0–9,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 9.29,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.69,
+    "lebar_m": 0.97,
+    "kedalaman_cm": 5,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.7,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.647782,
+     -3.377965
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-083",
+    "id_segmen": "SEG-PL-054",
+    "ruas": "Jl. A. Yani Km 9,0–9,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 9.17,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 4.19,
+    "lebar_m": 3.68,
+    "kedalaman_cm": 12,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.7,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.647242,
+     -3.377198
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-084",
+    "id_segmen": "SEG-PL-052",
+    "ruas": "Jl. A. Yani Km 10,0–10,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 10.44,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.69,
+    "lebar_m": 0.89,
+    "kedalaman_cm": 1,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.65372,
+     -3.385647
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-085",
+    "id_segmen": "SEG-PL-052",
+    "ruas": "Jl. A. Yani Km 10,0–10,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 10.18,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 0.91,
+    "lebar_m": 0.73,
+    "kedalaman_cm": 6,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.652348,
+     -3.383898
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-086",
+    "id_segmen": "SEG-PL-052",
+    "ruas": "Jl. A. Yani Km 10,0–10,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 10.03,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.11,
+    "lebar_m": 1.28,
+    "kedalaman_cm": 4,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "Pasar Kertak Hanyar",
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-03"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.651595,
+     -3.382935
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-087",
+    "id_segmen": "SEG-PL-052",
+    "ruas": "Jl. A. Yani Km 10,0–10,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 10.22,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.46,
+    "lebar_m": 0.41,
+    "kedalaman_cm": 2,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.652569,
+     -3.384161
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-088",
+    "id_segmen": "SEG-PL-051",
+    "ruas": "Jl. A. Yani Km 10,5–11,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 10.85,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.11,
+    "lebar_m": 1.52,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.45,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.655764,
+     -3.388365
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-089",
+    "id_segmen": "SEG-PL-051",
+    "ruas": "Jl. A. Yani Km 10,5–11,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 10.53,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 1.5,
+    "lebar_m": 1.75,
+    "kedalaman_cm": 10,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "SMP Negeri 1 Kertak Hanyar",
+    "skor_saw": 2.45,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.654135,
+     -3.386213
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-090",
+    "id_segmen": "SEG-PL-051",
+    "ruas": "Jl. A. Yani Km 10,5–11,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km": 10.55,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.89,
+    "lebar_m": 0.26,
+    "kedalaman_cm": 1,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": "SMP Negeri 1 Kertak Hanyar",
+    "skor_saw": 2.45,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.654278,
+     -3.386387
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-091",
+    "id_segmen": "SEG-PL-049",
+    "ruas": "Jl. A. Yani Km 11,5–12,0",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 11.85,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.85,
+    "lebar_m": 1.63,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.660896,
+     -3.395075
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-092",
+    "id_segmen": "SEG-PL-049",
+    "ruas": "Jl. A. Yani Km 11,5–12,0",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 11.52,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.47,
+    "lebar_m": 1.54,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.659201,
+     -3.392883
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-093",
+    "id_segmen": "SEG-PL-049",
+    "ruas": "Jl. A. Yani Km 11,5–12,0",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 11.94,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 0.94,
+    "lebar_m": 1.2,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.66137,
+     -3.395678
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-094",
+    "id_segmen": "SEG-PL-042",
+    "ruas": "Jl. A. Yani Km 15,0–15,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 15.41,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.54,
+    "lebar_m": 0.76,
+    "kedalaman_cm": 2,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.679027,
+     -3.418829
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-095",
+    "id_segmen": "SEG-PL-042",
+    "ruas": "Jl. A. Yani Km 15,0–15,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 15.45,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.92,
+    "lebar_m": 0.35,
+    "kedalaman_cm": 3,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.679284,
+     -3.419114
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-096",
+    "id_segmen": "SEG-PL-042",
+    "ruas": "Jl. A. Yani Km 15,0–15,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 15.43,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 0.99,
+    "lebar_m": 1.43,
+    "kedalaman_cm": 3,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.679159,
+     -3.419016
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-097",
+    "id_segmen": "SEG-PL-042",
+    "ruas": "Jl. A. Yani Km 15,0–15,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 15.02,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 2.65,
+    "lebar_m": 2.86,
+    "kedalaman_cm": 10,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.677098,
+     -3.416257
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-098",
+    "id_segmen": "SEG-PL-040",
+    "ruas": "Jl. A. Yani Km 16,0–16,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 16.43,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.77,
+    "lebar_m": 0.84,
+    "kedalaman_cm": 2,
+    "kemacetan": "Padat",
+    "elemen_terdekat": "Bundaran Kilometer 17 (33 m)",
+    "fasilitas_200m": "Kantor Kecamatan Gambut",
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.68422,
+     -3.425727
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-099",
+    "id_segmen": "SEG-PL-037",
+    "ruas": "Jl. A. Yani Km 17,5–18,0",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 17.59,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.14,
+    "lebar_m": 0.55,
+    "kedalaman_cm": 3,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.689938,
+     -3.433566
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-100",
+    "id_segmen": "SEG-PL-037",
+    "ruas": "Jl. A. Yani Km 17,5–18,0",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 17.6,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 4.63,
+    "lebar_m": 3.25,
+    "kedalaman_cm": 11,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.689987,
+     -3.433619
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-101",
+    "id_segmen": "SEG-PL-037",
+    "ruas": "Jl. A. Yani Km 17,5–18,0",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 17.61,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.19,
+    "lebar_m": 0.9,
+    "kedalaman_cm": 5,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-03"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.689997,
+     -3.433719
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-102",
+    "id_segmen": "SEG-PL-037",
+    "ruas": "Jl. A. Yani Km 17,5–18,0",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 17.85,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.88,
+    "lebar_m": 0.79,
+    "kedalaman_cm": 1,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.691189,
+     -3.435348
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-103",
+    "id_segmen": "SEG-PL-034",
+    "ruas": "Jl. A. Yani Km 19,0–19,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 19.46,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.88,
+    "lebar_m": 1.92,
+    "kedalaman_cm": 5,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": "Bundaran Liang Anggang (36 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-07"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.70005,
+     -3.445564
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-104",
+    "id_segmen": "SEG-PL-034",
+    "ruas": "Jl. A. Yani Km 19,0–19,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km": 19.33,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.41,
+    "lebar_m": 1.72,
+    "kedalaman_cm": 3,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.699259,
+     -3.444814
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-105",
+    "id_segmen": "SEG-PL-032",
+    "ruas": "Jl. A. Yani Km 20,0–20,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 20.13,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.84,
+    "lebar_m": 0.61,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.45,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.705548,
+     -3.444684
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-106",
+    "id_segmen": "SEG-PL-032",
+    "ruas": "Jl. A. Yani Km 20,0–20,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 20.29,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.18,
+    "lebar_m": 0.8,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.45,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.706876,
+     -3.444521
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-107",
+    "id_segmen": "SEG-PL-031",
+    "ruas": "Jl. A. Yani Km 20,5–21,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 20.66,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 2.59,
+    "lebar_m": 2.92,
+    "kedalaman_cm": 12,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.710005,
+     -3.444259
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-108",
+    "id_segmen": "SEG-PL-031",
+    "ruas": "Jl. A. Yani Km 20,5–21,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 20.94,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.81,
+    "lebar_m": 0.77,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-08"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.712348,
+     -3.444054
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-109",
+    "id_segmen": "SEG-PL-030",
+    "ruas": "Jl. A. Yani Km 21,0–21,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 21.3,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.25,
+    "lebar_m": 1.59,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.715358,
+     -3.443728
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-110",
+    "id_segmen": "SEG-PL-030",
+    "ruas": "Jl. A. Yani Km 21,0–21,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 21.29,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.74,
+    "lebar_m": 1.51,
+    "kedalaman_cm": 10,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.715288,
+     -3.443749
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-111",
+    "id_segmen": "SEG-PL-030",
+    "ruas": "Jl. A. Yani Km 21,0–21,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 21.09,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.89,
+    "lebar_m": 0.6,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.713628,
+     -3.443925
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-112",
+    "id_segmen": "SEG-PL-030",
+    "ruas": "Jl. A. Yani Km 21,0–21,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 21.41,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.73,
+    "lebar_m": 0.68,
+    "kedalaman_cm": 1,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.716309,
+     -3.44368
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-113",
+    "id_segmen": "SEG-PL-027",
+    "ruas": "Jl. A. Yani Km 22,5–23,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 22.62,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.2,
+    "lebar_m": 1.42,
+    "kedalaman_cm": 14,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.7,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.726385,
+     -3.442706
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-114",
+    "id_segmen": "SEG-PL-023",
+    "ruas": "Jl. A. Yani Km 24,5–25,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 24.62,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.4,
+    "lebar_m": 1.86,
+    "kedalaman_cm": 5,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.743161,
+     -3.441354
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-115",
+    "id_segmen": "SEG-PL-022",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 25.11,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 4.05,
+    "lebar_m": 0.95,
+    "kedalaman_cm": 14,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.45,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.746992,
+     -3.442652
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-116",
+    "id_segmen": "SEG-PL-022",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 25.24,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.7,
+    "lebar_m": 1.22,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": "APILL Simpang Bandara (54 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 2.45,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.748143,
+     -3.442817
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-117",
+    "id_segmen": "SEG-PL-022",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 25.39,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.9,
+    "lebar_m": 1.67,
+    "kedalaman_cm": 4,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": "APILL Simpang Bandara (88 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 2.45,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-03"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.749394,
+     -3.44294
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-118",
+    "id_segmen": "SEG-PL-022",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 25.21,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.22,
+    "lebar_m": 2.7,
+    "kedalaman_cm": 7,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": "APILL Simpang Bandara (89 m)",
+    "fasilitas_200m": null,
+    "skor_saw": 2.45,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.747818,
+     -3.44275
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-119",
+    "id_segmen": "SEG-PL-020",
+    "ruas": "Jl. A. Yani Km 26,0–26,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 26.08,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 4.93,
+    "lebar_m": 3.32,
+    "kedalaman_cm": 14,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.25,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.755095,
+     -3.443615
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-120",
+    "id_segmen": "SEG-PL-020",
+    "ruas": "Jl. A. Yani Km 26,0–26,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 26.07,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.18,
+    "lebar_m": 0.79,
+    "kedalaman_cm": 1,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.25,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-03"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.755021,
+     -3.443628
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-121",
+    "id_segmen": "SEG-PL-016",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 28.22,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.05,
+    "lebar_m": 0.87,
+    "kedalaman_cm": 2,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.95,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.772719,
+     -3.446794
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-122",
+    "id_segmen": "SEG-PL-016",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 28.06,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.62,
+    "lebar_m": 1.28,
+    "kedalaman_cm": 6,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.95,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.771513,
+     -3.446398
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-123",
+    "id_segmen": "SEG-PL-016",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 28.23,
+    "jenis_kerusakan": "Tambalan Rusak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.49,
+    "lebar_m": 1.58,
+    "kedalaman_cm": 5,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.95,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.772877,
+     -3.446823
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-124",
+    "id_segmen": "SEG-PL-016",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 28.11,
+    "jenis_kerusakan": "Bergelombang",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.52,
+    "lebar_m": 1.53,
+    "kedalaman_cm": 5,
+    "kemacetan": "Lancar",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 1.95,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.771902,
+     -3.446545
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-125",
+    "id_segmen": "SEG-PL-012",
+    "ruas": "Jl. A. Yani Km 30,0–30,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 30.13,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 3.13,
+    "lebar_m": 3.11,
+    "kedalaman_cm": 15,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-03"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.788561,
+     -3.448972
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-126",
+    "id_segmen": "SEG-PL-012",
+    "ruas": "Jl. A. Yani Km 30,0–30,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 30.45,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 1.02,
+    "lebar_m": 0.41,
+    "kedalaman_cm": 2,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-01"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.791271,
+     -3.449152
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-127",
+    "id_segmen": "SEG-PL-012",
+    "ruas": "Jl. A. Yani Km 30,0–30,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 30.05,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 2.33,
+    "lebar_m": 0.6,
+    "kedalaman_cm": 5,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-02"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.787948,
+     -3.448938
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-128",
+    "id_segmen": "SEG-PL-012",
+    "ruas": "Jl. A. Yani Km 30,0–30,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 30.41,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.89,
+    "lebar_m": 0.71,
+    "kedalaman_cm": 1,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi",
+    "foto": null,
+    "tanggal_survei": "2026-05-04"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.790964,
+     -3.449101
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-129",
+    "id_segmen": "SEG-PL-005",
+    "ruas": "Jl. A. Yani Km 33,5–34,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 33.55,
+    "jenis_kerusakan": "Lubang",
+    "tingkat_kerusakan": "Berat",
+    "panjang_m": 5,
+    "lebar_m": 3.9,
+    "kedalaman_cm": 7,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-03"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.816401,
+     -3.444339
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-130",
+    "id_segmen": "SEG-PL-005",
+    "ruas": "Jl. A. Yani Km 33,5–34,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 33.93,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.48,
+    "lebar_m": 0.96,
+    "kedalaman_cm": 1,
+    "kemacetan": "Padat",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-09"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.819305,
+     -3.44306
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-131",
+    "id_segmen": "SEG-PL-002",
+    "ruas": "Jl. A. Yani Km 35,0–35,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 35.24,
+    "jenis_kerusakan": "Retak",
+    "tingkat_kerusakan": "Ringan",
+    "panjang_m": 0.53,
+    "lebar_m": 0.92,
+    "kedalaman_cm": 3,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.05,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-06"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.830305,
+     -3.442951
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_kerusakan": "KR-132",
+    "id_segmen": "SEG-PL-002",
+    "ruas": "Jl. A. Yani Km 35,0–35,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km": 35.38,
+    "jenis_kerusakan": "Amblas",
+    "tingkat_kerusakan": "Sedang",
+    "panjang_m": 1.3,
+    "lebar_m": 1.88,
+    "kedalaman_cm": 5,
+    "kemacetan": "Macet",
+    "elemen_terdekat": null,
+    "fasilitas_200m": null,
+    "skor_saw": 2.05,
+    "kelas_prioritas": "Sedang",
+    "foto": null,
+    "tanggal_survei": "2026-05-05"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.83149,
+     -3.44297
+    ]
+   }
+  }
+ ]
+}

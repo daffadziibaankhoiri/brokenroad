@@ -1,0 +1,768 @@
+{
+ "type": "FeatureCollection",
+ "name": "jalur_alternatif",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-01",
+    "id_segmen": "SEG-PG-002",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 0,5",
+    "panjang_m": 1763,
+    "tambahan_jarak_m": 745
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.597598,
+      -3.321964
+     ],
+     [
+      114.599444,
+      -3.318973
+     ],
+     [
+      114.603003,
+      -3.32026
+     ],
+     [
+      114.607332,
+      -3.322996
+     ],
+     [
+      114.605792,
+      -3.326086
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-02",
+    "id_segmen": "SEG-PG-015",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 7,0",
+    "panjang_m": 2310,
+    "tambahan_jarak_m": 1283
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.634775,
+      -3.360546
+     ],
+     [
+      114.639899,
+      -3.357166
+     ],
+     [
+      114.642881,
+      -3.360192
+     ],
+     [
+      114.645008,
+      -3.363892
+     ],
+     [
+      114.640366,
+      -3.36791
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-03",
+    "id_segmen": "SEG-PG-017",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 8,0",
+    "panjang_m": 1534,
+    "tambahan_jarak_m": 506
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.639862,
+      -3.367237
+     ],
+     [
+      114.642224,
+      -3.365986
+     ],
+     [
+      114.645184,
+      -3.369015
+     ],
+     [
+      114.647281,
+      -3.372679
+     ],
+     [
+      114.645434,
+      -3.374614
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-04",
+    "id_segmen": "SEG-PG-025",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 12,0",
+    "panjang_m": 1916,
+    "tambahan_jarak_m": 889
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.660256,
+      -3.393962
+     ],
+     [
+      114.663971,
+      -3.391637
+     ],
+     [
+      114.666959,
+      -3.39465
+     ],
+     [
+      114.669092,
+      -3.398315
+     ],
+     [
+      114.665882,
+      -3.401298
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-05",
+    "id_segmen": "SEG-PG-029",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 14,0",
+    "panjang_m": 1649,
+    "tambahan_jarak_m": 622
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.670469,
+      -3.407313
+     ],
+     [
+      114.673251,
+      -3.405739
+     ],
+     [
+      114.676216,
+      -3.408753
+     ],
+     [
+      114.67833,
+      -3.412404
+     ],
+     [
+      114.676072,
+      -3.414666
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-06",
+    "id_segmen": "SEG-PG-032",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 15,5",
+    "panjang_m": 1818,
+    "tambahan_jarak_m": 790
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.678106,
+      -3.417343
+     ],
+     [
+      114.681459,
+      -3.415314
+     ],
+     [
+      114.684438,
+      -3.418359
+     ],
+     [
+      114.686549,
+      -3.422067
+     ],
+     [
+      114.683671,
+      -3.424727
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-07",
+    "id_segmen": "SEG-PG-045",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 22,0",
+    "panjang_m": 1434,
+    "tambahan_jarak_m": 407
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.718697,
+      -3.44327
+     ],
+     [
+      114.71891,
+      -3.441072
+     ],
+     [
+      114.723048,
+      -3.440138
+     ],
+     [
+      114.727292,
+      -3.440287
+     ],
+     [
+      114.727902,
+      -3.442411
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-08",
+    "id_segmen": "SEG-PG-051",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 25,0",
+    "panjang_m": 1697,
+    "tambahan_jarak_m": 678
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.743801,
+      -3.441368
+     ],
+     [
+      114.745191,
+      -3.437877
+     ],
+     [
+      114.748901,
+      -3.438421
+     ],
+     [
+      114.752798,
+      -3.43937
+     ],
+     [
+      114.752812,
+      -3.443127
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-09",
+    "id_segmen": "SEG-PG-061",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 30,0",
+    "panjang_m": 2199,
+    "tambahan_jarak_m": 1173
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.784993,
+      -3.448594
+     ],
+     [
+      114.785727,
+      -3.442994
+     ],
+     [
+      114.789978,
+      -3.442707
+     ],
+     [
+      114.79414,
+      -3.443499
+     ],
+     [
+      114.794222,
+      -3.449147
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-10",
+    "id_segmen": "SEG-PG-068",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 33,5",
+    "panjang_m": 1804,
+    "tambahan_jarak_m": 789
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.813512,
+      -3.444905
+     ],
+     [
+      114.813176,
+      -3.441378
+     ],
+     [
+      114.816284,
+      -3.439844
+     ],
+     [
+      114.821915,
+      -3.439143
+     ],
+     [
+      114.822374,
+      -3.442665
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-11",
+    "id_segmen": "SEG-PG-072",
+    "arah": "Pergi",
+    "nama": "Pengalihan via jalan lingkungan Km 35,5",
+    "panjang_m": 2036,
+    "tambahan_jarak_m": 1290
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.829939,
+      -3.442794
+     ],
+     [
+      114.830456,
+      -3.43667
+     ],
+     [
+      114.833439,
+      -3.436183
+     ],
+     [
+      114.836384,
+      -3.43679
+     ],
+     [
+      114.836662,
+      -3.442929
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-12",
+    "id_segmen": "SEG-PL-068",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 2,0",
+    "panjang_m": 1690,
+    "tambahan_jarak_m": 680
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.615112,
+      -3.33433
+     ],
+     [
+      114.611363,
+      -3.336387
+     ],
+     [
+      114.609087,
+      -3.334375
+     ],
+     [
+      114.606479,
+      -3.331861
+     ],
+     [
+      114.608497,
+      -3.328089
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-13",
+    "id_segmen": "SEG-PL-060",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 6,0",
+    "panjang_m": 1670,
+    "tambahan_jarak_m": 642
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.635158,
+      -3.361312
+     ],
+     [
+      114.632314,
+      -3.362952
+     ],
+     [
+      114.629341,
+      -3.359937
+     ],
+     [
+      114.627227,
+      -3.356275
+     ],
+     [
+      114.629552,
+      -3.35396
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-14",
+    "id_segmen": "SEG-PL-057",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 7,5",
+    "panjang_m": 1749,
+    "tambahan_jarak_m": 722
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.642768,
+      -3.371362
+     ],
+     [
+      114.639624,
+      -3.373203
+     ],
+     [
+      114.636661,
+      -3.370171
+     ],
+     [
+      114.634565,
+      -3.366512
+     ],
+     [
+      114.637194,
+      -3.363986
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-15",
+    "id_segmen": "SEG-PL-055",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 8,5",
+    "panjang_m": 2281,
+    "tambahan_jarak_m": 1254
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.647872,
+      -3.378039
+     ],
+     [
+      114.64287,
+      -3.381351
+     ],
+     [
+      114.639861,
+      -3.378329
+     ],
+     [
+      114.637734,
+      -3.374627
+     ],
+     [
+      114.642263,
+      -3.370689
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-16",
+    "id_segmen": "SEG-PL-049",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 11,5",
+    "panjang_m": 2273,
+    "tambahan_jarak_m": 1246
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.663195,
+      -3.398062
+     ],
+     [
+      114.658195,
+      -3.401363
+     ],
+     [
+      114.655218,
+      -3.398364
+     ],
+     [
+      114.653078,
+      -3.394691
+     ],
+     [
+      114.65757,
+      -3.390726
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-17",
+    "id_segmen": "SEG-PL-042",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 15,0",
+    "panjang_m": 2227,
+    "tambahan_jarak_m": 1199
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.681021,
+      -3.421461
+     ],
+     [
+      114.67614,
+      -3.424614
+     ],
+     [
+      114.673195,
+      -3.421616
+     ],
+     [
+      114.671088,
+      -3.41796
+     ],
+     [
+      114.67543,
+      -3.414099
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-18",
+    "id_segmen": "SEG-PL-027",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 22,5",
+    "panjang_m": 1780,
+    "tambahan_jarak_m": 754
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.732102,
+      -3.442199
+     ],
+     [
+      114.732016,
+      -3.445984
+     ],
+     [
+      114.727876,
+      -3.446893
+     ],
+     [
+      114.723662,
+      -3.446741
+     ],
+     [
+      114.722895,
+      -3.443033
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-19",
+    "id_segmen": "SEG-PL-020",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 26,0",
+    "panjang_m": 1802,
+    "tambahan_jarak_m": 778
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.761131,
+      -3.444221
+     ],
+     [
+      114.760194,
+      -3.448012
+     ],
+     [
+      114.756127,
+      -3.448244
+     ],
+     [
+      114.751953,
+      -3.447113
+     ],
+     [
+      114.751958,
+      -3.443195
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-20",
+    "id_segmen": "SEG-PL-012",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 30,0",
+    "panjang_m": 2146,
+    "tambahan_jarak_m": 1120
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.794212,
+      -3.449308
+     ],
+     [
+      114.793467,
+      -3.45469
+     ],
+     [
+      114.789241,
+      -3.454974
+     ],
+     [
+      114.785101,
+      -3.454188
+     ],
+     [
+      114.784984,
+      -3.448755
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_jalur": "ALT-21",
+    "id_segmen": "SEG-PL-002",
+    "arah": "Pulang",
+    "nama": "Pengalihan via jalan lingkungan Km 35,0",
+    "panjang_m": 1955,
+    "tambahan_jarak_m": 929
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.834978,
+      -3.443052
+     ],
+     [
+      114.834454,
+      -3.447597
+     ],
+     [
+      114.830276,
+      -3.448056
+     ],
+     [
+      114.826076,
+      -3.447449
+     ],
+     [
+      114.825735,
+      -3.442886
+     ]
+    ]
+   }
+  }
+ ]
+}

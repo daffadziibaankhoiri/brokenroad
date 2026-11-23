@@ -1,0 +1,2291 @@
+{
+ "type": "FeatureCollection",
+ "name": "prioritas_segmen",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-001",
+    "ruas": "Jl. A. Yani Km 0,0–0,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Tengah",
+    "km_awal": 0,
+    "km_akhir": 0.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 56,
+    "proporsi_rusak": 0.11,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 2,
+    "k3": 3,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.595948,
+      -3.321581
+     ],
+     [
+      114.598002,
+      -3.322081
+     ],
+     [
+      114.599705,
+      -3.323317
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-002",
+    "ruas": "Jl. A. Yani Km 0,5–1,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Tengah",
+    "km_awal": 0.5,
+    "km_akhir": 1,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 108,
+    "proporsi_rusak": 0.22,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 745,
+    "k1": 2,
+    "k2": 2,
+    "k3": 1,
+    "k4": 1,
+    "k5": 1,
+    "skor_saw": 1.5,
+    "kelas_prioritas": "Rendah"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.599705,
+      -3.323317
+     ],
+     [
+      114.601675,
+      -3.323997
+     ],
+     [
+      114.603639,
+      -3.324768
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-004",
+    "ruas": "Jl. A. Yani Km 1,5–2,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Tengah",
+    "km_awal": 1.5,
+    "km_akhir": 2,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 116,
+    "proporsi_rusak": 0.23,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 2,
+    "k3": 3,
+    "k4": 2,
+    "k5": 3,
+    "skor_saw": 2.7,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.607189,
+      -3.32702
+     ],
+     [
+      114.608937,
+      -3.328187
+     ],
+     [
+      114.610682,
+      -3.32936
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-008",
+    "ruas": "Jl. A. Yani Km 3,5–4,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Selatan",
+    "km_awal": 3.5,
+    "km_akhir": 4,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Ringan",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 44,
+    "proporsi_rusak": 0.09,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": null,
+    "k1": 1,
+    "k2": 1,
+    "k3": 3,
+    "k4": 2,
+    "k5": 3,
+    "skor_saw": 1.85,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.61853,
+      -3.339119
+     ],
+     [
+      114.61974,
+      -3.340834
+     ],
+     [
+      114.621005,
+      -3.342509
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-009",
+    "ruas": "Jl. A. Yani Km 4,0–4,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Selatan",
+    "km_awal": 4,
+    "km_akhir": 4.5,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Ringan",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 58,
+    "proporsi_rusak": 0.12,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 1,
+    "k2": 2,
+    "k3": 3,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.85,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.621005,
+      -3.342509
+     ],
+     [
+      114.62228,
+      -3.344179
+     ],
+     [
+      114.623552,
+      -3.345852
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-012",
+    "ruas": "Jl. A. Yani Km 5,5–6,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarmasin Selatan",
+    "km_awal": 5.5,
+    "km_akhir": 6,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 169,
+    "proporsi_rusak": 0.34,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 3,
+    "k3": 3,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.628659,
+      -3.352527
+     ],
+     [
+      114.629937,
+      -3.354195
+     ],
+     [
+      114.631215,
+      -3.355863
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-015",
+    "ruas": "Jl. A. Yani Km 7,0–7,5",
+    "arah": "Pergi",
+    "kecamatan": "Kertak Hanyar",
+    "km_awal": 7,
+    "km_akhir": 7.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 67,
+    "proporsi_rusak": 0.13,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 1283,
+    "k1": 3,
+    "k2": 2,
+    "k3": 2,
+    "k4": 1,
+    "k5": 2,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.636309,
+      -3.362547
+     ],
+     [
+      114.637576,
+      -3.364224
+     ],
+     [
+      114.638852,
+      -3.365893
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-017",
+    "ruas": "Jl. A. Yani Km 8,0–8,5",
+    "arah": "Pergi",
+    "kecamatan": "Kertak Hanyar",
+    "km_awal": 8,
+    "km_akhir": 8.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 46,
+    "proporsi_rusak": 0.09,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": 506,
+    "k1": 2,
+    "k2": 1,
+    "k3": 1,
+    "k4": 2,
+    "k5": 1,
+    "skor_saw": 1.5,
+    "kelas_prioritas": "Rendah"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.641381,
+      -3.369249
+     ],
+     [
+      114.642645,
+      -3.370928
+     ],
+     [
+      114.643912,
+      -3.372604
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-020",
+    "ruas": "Jl. A. Yani Km 9,5–10,0",
+    "arah": "Pergi",
+    "kecamatan": "Kertak Hanyar",
+    "km_awal": 9.5,
+    "km_akhir": 10,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 55,
+    "proporsi_rusak": 0.11,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 2,
+    "k3": 1,
+    "k4": 2,
+    "k5": 3,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.649021,
+      -3.379276
+     ],
+     [
+      114.650296,
+      -3.380947
+     ],
+     [
+      114.651573,
+      -3.382615
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-025",
+    "ruas": "Jl. A. Yani Km 12,0–12,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km_awal": 12,
+    "km_akhir": 12.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 236,
+    "proporsi_rusak": 0.47,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 889,
+    "k1": 2,
+    "k2": 3,
+    "k3": 1,
+    "k4": 1,
+    "k5": 1,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.661791,
+      -3.395962
+     ],
+     [
+      114.663068,
+      -3.39763
+     ],
+     [
+      114.664348,
+      -3.399297
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-029",
+    "ruas": "Jl. A. Yani Km 14,0–14,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km_awal": 14,
+    "km_akhir": 14.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 87,
+    "proporsi_rusak": 0.17,
+    "jumlah_fasilitas_200m": 2,
+    "tambahan_jarak_m": 622,
+    "k1": 2,
+    "k2": 2,
+    "k3": 2,
+    "k4": 3,
+    "k5": 1,
+    "skor_saw": 2,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.671988,
+      -3.409325
+     ],
+     [
+      114.673263,
+      -3.410995
+     ],
+     [
+      114.674529,
+      -3.412672
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-032",
+    "ruas": "Jl. A. Yani Km 15,5–16,0",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km_awal": 15.5,
+    "km_akhir": 16,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 46,
+    "proporsi_rusak": 0.09,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": 790,
+    "k1": 3,
+    "k2": 1,
+    "k3": 2,
+    "k4": 2,
+    "k5": 1,
+    "skor_saw": 2.05,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.679632,
+      -3.41935
+     ],
+     [
+      114.680897,
+      -3.421028
+     ],
+     [
+      114.682163,
+      -3.422705
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-034",
+    "ruas": "Jl. A. Yani Km 16,5–17,0",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km_awal": 16.5,
+    "km_akhir": 17,
+    "panjang_m": 500,
+    "jumlah_titik": 3,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 64,
+    "proporsi_rusak": 0.13,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 2,
+    "k3": 1,
+    "k4": 2,
+    "k5": 3,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.68467,
+      -3.426078
+     ],
+     [
+      114.685915,
+      -3.427771
+     ],
+     [
+      114.687154,
+      -3.429469
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-036",
+    "ruas": "Jl. A. Yani Km 17,5–18,0",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km_awal": 17.5,
+    "km_akhir": 18,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 102,
+    "proporsi_rusak": 0.2,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 2,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.689615,
+      -3.432875
+     ],
+     [
+      114.690849,
+      -3.434576
+     ],
+     [
+      114.69207,
+      -3.436285
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-037",
+    "ruas": "Jl. A. Yani Km 18,0–18,5",
+    "arah": "Pergi",
+    "kecamatan": "Gambut",
+    "km_awal": 18,
+    "km_akhir": 18.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 156,
+    "proporsi_rusak": 0.31,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 3,
+    "k3": 2,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.69207,
+      -3.436285
+     ],
+     [
+      114.693311,
+      -3.437981
+     ],
+     [
+      114.694555,
+      -3.439673
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-045",
+    "ruas": "Jl. A. Yani Km 22,0–22,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 22,
+    "km_akhir": 22.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 35,
+    "proporsi_rusak": 0.07,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": 407,
+    "k1": 3,
+    "k2": 1,
+    "k3": 1,
+    "k4": 2,
+    "k5": 1,
+    "skor_saw": 1.85,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.721207,
+      -3.443031
+     ],
+     [
+      114.723299,
+      -3.442834
+     ],
+     [
+      114.725391,
+      -3.442639
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-046",
+    "ruas": "Jl. A. Yani Km 22,5–23,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 22.5,
+    "km_akhir": 23,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 45,
+    "proporsi_rusak": 0.09,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 1,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.725391,
+      -3.442639
+     ],
+     [
+      114.727483,
+      -3.442447
+     ],
+     [
+      114.729577,
+      -3.442265
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-049",
+    "ruas": "Jl. A. Yani Km 24,0–24,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 24,
+    "km_akhir": 24.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Ringan",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 156,
+    "proporsi_rusak": 0.31,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 1,
+    "k2": 3,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.6,
+    "kelas_prioritas": "Rendah"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.737946,
+      -3.441508
+     ],
+     [
+      114.740039,
+      -3.441311
+     ],
+     [
+      114.742143,
+      -3.441147
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-050",
+    "ruas": "Jl. A. Yani Km 24,5–25,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 24.5,
+    "km_akhir": 25,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 186,
+    "proporsi_rusak": 0.37,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 3,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.742143,
+      -3.441147
+     ],
+     [
+      114.744211,
+      -3.441479
+     ],
+     [
+      114.746203,
+      -3.442149
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-051",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 25,
+    "km_akhir": 25.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 230,
+    "proporsi_rusak": 0.46,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": 678,
+    "k1": 2,
+    "k2": 3,
+    "k3": 3,
+    "k4": 2,
+    "k5": 1,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.746203,
+      -3.442149
+     ],
+     [
+      114.748219,
+      -3.442637
+     ],
+     [
+      114.750302,
+      -3.44287
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-053",
+    "ruas": "Jl. A. Yani Km 26,0–26,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 26,
+    "km_akhir": 26.5,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Ringan",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 16,
+    "proporsi_rusak": 0.03,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 1,
+    "k2": 1,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.3,
+    "kelas_prioritas": "Rendah"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.75448,
+      -3.443351
+     ],
+     [
+      114.756548,
+      -3.443668
+     ],
+     [
+      114.758645,
+      -3.44377
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-057",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 28,
+    "km_akhir": 28.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 64,
+    "proporsi_rusak": 0.13,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 2,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.771036,
+      -3.446094
+     ],
+     [
+      114.773046,
+      -3.446707
+     ],
+     [
+      114.775054,
+      -3.447324
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-059",
+    "ruas": "Jl. A. Yani Km 29,0–29,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 29,
+    "km_akhir": 29.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 49,
+    "proporsi_rusak": 0.1,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 1,
+    "k3": 1,
+    "k4": 2,
+    "k5": 3,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.779124,
+      -3.448246
+     ],
+     [
+      114.781217,
+      -3.448386
+     ],
+     [
+      114.783314,
+      -3.448506
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-061",
+    "ruas": "Jl. A. Yani Km 30,0–30,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 30,
+    "km_akhir": 30.5,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 30,
+    "proporsi_rusak": 0.06,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 1173,
+    "k1": 3,
+    "k2": 1,
+    "k3": 1,
+    "k4": 1,
+    "k5": 2,
+    "skor_saw": 1.85,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.78751,
+      -3.448741
+     ],
+     [
+      114.789607,
+      -3.448868
+     ],
+     [
+      114.791705,
+      -3.448993
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-065",
+    "ruas": "Jl. A. Yani Km 32,0–32,5",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 32,
+    "km_akhir": 32.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 191,
+    "proporsi_rusak": 0.38,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 3,
+    "k3": 3,
+    "k4": 2,
+    "k5": 3,
+    "skor_saw": 2.5,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.803991,
+      -3.448103
+     ],
+     [
+      114.805868,
+      -3.447158
+     ],
+     [
+      114.807801,
+      -3.446324
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-066",
+    "ruas": "Jl. A. Yani Km 32,5–33,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 32.5,
+    "km_akhir": 33,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 75,
+    "proporsi_rusak": 0.15,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 2,
+    "k3": 1,
+    "k4": 2,
+    "k5": 3,
+    "skor_saw": 1.95,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.807801,
+      -3.446324
+     ],
+     [
+      114.809814,
+      -3.44571
+     ],
+     [
+      114.81187,
+      -3.445262
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-068",
+    "ruas": "Jl. A. Yani Km 33,5–34,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 33.5,
+    "km_akhir": 34,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 35,
+    "proporsi_rusak": 0.07,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 789,
+    "k1": 2,
+    "k2": 1,
+    "k3": 3,
+    "k4": 1,
+    "k5": 1,
+    "skor_saw": 1.75,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.815959,
+      -3.444337
+     ],
+     [
+      114.817903,
+      -3.443565
+     ],
+     [
+      114.819838,
+      -3.442743
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PG-072",
+    "ruas": "Jl. A. Yani Km 35,5–36,0",
+    "arah": "Pergi",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 35.5,
+    "km_akhir": 36,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 92,
+    "proporsi_rusak": 0.18,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": 1290,
+    "k1": 3,
+    "k2": 2,
+    "k3": 3,
+    "k4": 2,
+    "k5": 2,
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.83246,
+      -3.442836
+     ],
+     [
+      114.834561,
+      -3.44288
+     ],
+     [
+      114.836662,
+      -3.442929
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-071",
+    "ruas": "Jl. A. Yani Km 0,5–1,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarmasin Tengah",
+    "km_awal": 0.5,
+    "km_akhir": 1,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 45,
+    "proporsi_rusak": 0.09,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 1,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.603567,
+      -3.324913
+     ],
+     [
+      114.601621,
+      -3.324149
+     ],
+     [
+      114.59963,
+      -3.32346
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-068",
+    "ruas": "Jl. A. Yani Km 2,0–2,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarmasin Selatan",
+    "km_awal": 2,
+    "km_akhir": 2.5,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 57,
+    "proporsi_rusak": 0.11,
+    "jumlah_fasilitas_200m": 2,
+    "tambahan_jarak_m": 680,
+    "k1": 3,
+    "k2": 2,
+    "k3": 3,
+    "k4": 3,
+    "k5": 1,
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.613682,
+      -3.332261
+     ],
+     [
+      114.612245,
+      -3.330764
+     ],
+     [
+      114.610589,
+      -3.329492
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-064",
+    "ruas": "Jl. A. Yani Km 4,0–4,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarmasin Selatan",
+    "km_awal": 4,
+    "km_akhir": 4.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 99,
+    "proporsi_rusak": 0.2,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 2,
+    "k3": 3,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2.55,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.623424,
+      -3.34595
+     ],
+     [
+      114.622152,
+      -3.344277
+     ],
+     [
+      114.620877,
+      -3.342608
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-060",
+    "ruas": "Jl. A. Yani Km 6,0–6,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km_awal": 6,
+    "km_akhir": 6.5,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 28,
+    "proporsi_rusak": 0.06,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 642,
+    "k1": 3,
+    "k2": 1,
+    "k3": 3,
+    "k4": 1,
+    "k5": 1,
+    "skor_saw": 2.1,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.633633,
+      -3.359303
+     ],
+     [
+      114.632356,
+      -3.357635
+     ],
+     [
+      114.631086,
+      -3.355961
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-057",
+    "ruas": "Jl. A. Yani Km 7,5–8,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km_awal": 7.5,
+    "km_akhir": 8,
+    "panjang_m": 500,
+    "jumlah_titik": 3,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 165,
+    "proporsi_rusak": 0.33,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 722,
+    "k1": 3,
+    "k2": 3,
+    "k3": 2,
+    "k4": 1,
+    "k5": 1,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.641252,
+      -3.369347
+     ],
+     [
+      114.639985,
+      -3.367671
+     ],
+     [
+      114.638723,
+      -3.365991
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-055",
+    "ruas": "Jl. A. Yani Km 8,5–9,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km_awal": 8.5,
+    "km_akhir": 9,
+    "panjang_m": 500,
+    "jumlah_titik": 3,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 81,
+    "proporsi_rusak": 0.16,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": 1254,
+    "k1": 2,
+    "k2": 2,
+    "k3": 3,
+    "k4": 2,
+    "k5": 2,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.646333,
+      -3.376043
+     ],
+     [
+      114.645052,
+      -3.374376
+     ],
+     [
+      114.643783,
+      -3.372701
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-054",
+    "ruas": "Jl. A. Yani Km 9,0–9,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km_awal": 9,
+    "km_akhir": 9.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 213,
+    "proporsi_rusak": 0.43,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 3,
+    "k3": 3,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2.7,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.648893,
+      -3.379375
+     ],
+     [
+      114.647617,
+      -3.377705
+     ],
+     [
+      114.646333,
+      -3.376043
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-052",
+    "ruas": "Jl. A. Yani Km 10,0–10,5",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km_awal": 10,
+    "km_akhir": 10.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 93,
+    "proporsi_rusak": 0.19,
+    "jumlah_fasilitas_200m": 2,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 2,
+    "k3": 2,
+    "k4": 3,
+    "k5": 3,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.653996,
+      -3.386052
+     ],
+     [
+      114.652723,
+      -3.384381
+     ],
+     [
+      114.651445,
+      -3.382713
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-051",
+    "ruas": "Jl. A. Yani Km 10,5–11,0",
+    "arah": "Pulang",
+    "kecamatan": "Kertak Hanyar",
+    "km_awal": 10.5,
+    "km_akhir": 11,
+    "panjang_m": 500,
+    "jumlah_titik": 3,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 149,
+    "proporsi_rusak": 0.3,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 3,
+    "k3": 1,
+    "k4": 2,
+    "k5": 3,
+    "skor_saw": 2.45,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.65655,
+      -3.38939
+     ],
+     [
+      114.655271,
+      -3.387722
+     ],
+     [
+      114.653996,
+      -3.386052
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-049",
+    "ruas": "Jl. A. Yani Km 11,5–12,0",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km_awal": 11.5,
+    "km_akhir": 12,
+    "panjang_m": 500,
+    "jumlah_titik": 3,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 88,
+    "proporsi_rusak": 0.18,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 1246,
+    "k1": 2,
+    "k2": 2,
+    "k3": 1,
+    "k4": 1,
+    "k5": 2,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.661663,
+      -3.39606
+     ],
+     [
+      114.660384,
+      -3.394393
+     ],
+     [
+      114.659103,
+      -3.392727
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-042",
+    "ruas": "Jl. A. Yani Km 15,0–15,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km_awal": 15,
+    "km_akhir": 15.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 154,
+    "proporsi_rusak": 0.31,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 1199,
+    "k1": 3,
+    "k2": 3,
+    "k3": 2,
+    "k4": 1,
+    "k5": 2,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.679503,
+      -3.419448
+     ],
+     [
+      114.678233,
+      -3.417774
+     ],
+     [
+      114.676958,
+      -3.416104
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-040",
+    "ruas": "Jl. A. Yani Km 16,0–16,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km_awal": 16,
+    "km_akhir": 16.5,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Ringan",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 23,
+    "proporsi_rusak": 0.05,
+    "jumlah_fasilitas_200m": 2,
+    "tambahan_jarak_m": null,
+    "k1": 1,
+    "k2": 1,
+    "k3": 2,
+    "k4": 3,
+    "k5": 3,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.68454,
+      -3.426175
+     ],
+     [
+      114.683291,
+      -3.424485
+     ],
+     [
+      114.682034,
+      -3.422802
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-037",
+    "ruas": "Jl. A. Yani Km 17,5–18,0",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km_awal": 17.5,
+    "km_akhir": 18,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 223,
+    "proporsi_rusak": 0.45,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 3,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2.3,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.691939,
+      -3.43638
+     ],
+     [
+      114.690718,
+      -3.43467
+     ],
+     [
+      114.689484,
+      -3.43297
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-034",
+    "ruas": "Jl. A. Yani Km 19,0–19,5",
+    "arah": "Pulang",
+    "kecamatan": "Gambut",
+    "km_awal": 19,
+    "km_akhir": 19.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 111,
+    "proporsi_rusak": 0.22,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 2,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.8,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.700363,
+      -3.445647
+     ],
+     [
+      114.698741,
+      -3.444351
+     ],
+     [
+      114.697191,
+      -3.442933
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-032",
+    "ruas": "Jl. A. Yani Km 20,0–20,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 20,
+    "km_akhir": 20.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Ringan",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 60,
+    "proporsi_rusak": 0.12,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 1,
+    "k2": 2,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.45,
+    "kelas_prioritas": "Rendah"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.70867,
+      -3.444369
+     ],
+     [
+      114.706579,
+      -3.44457
+     ],
+     [
+      114.704489,
+      -3.444767
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-031",
+    "ruas": "Jl. A. Yani Km 20,5–21,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 20.5,
+    "km_akhir": 21,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 32,
+    "proporsi_rusak": 0.06,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 1,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.712855,
+      -3.443988
+     ],
+     [
+      114.710762,
+      -3.44418
+     ],
+     [
+      114.70867,
+      -3.444369
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-030",
+    "ruas": "Jl. A. Yani Km 21,0–21,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 21,
+    "km_akhir": 21.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 118,
+    "proporsi_rusak": 0.24,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 2,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2.15,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.717038,
+      -3.443589
+     ],
+     [
+      114.714947,
+      -3.44379
+     ],
+     [
+      114.712855,
+      -3.443988
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-027",
+    "ruas": "Jl. A. Yani Km 22,5–23,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 22.5,
+    "km_akhir": 23,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 37,
+    "proporsi_rusak": 0.07,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 754,
+    "k1": 3,
+    "k2": 1,
+    "k3": 1,
+    "k4": 1,
+    "k5": 1,
+    "skor_saw": 1.7,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.729591,
+      -3.442426
+     ],
+     [
+      114.727498,
+      -3.442608
+     ],
+     [
+      114.725406,
+      -3.4428
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-023",
+    "ruas": "Jl. A. Yani Km 24,5–25,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 24.5,
+    "km_akhir": 25,
+    "panjang_m": 500,
+    "jumlah_titik": 1,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 19,
+    "proporsi_rusak": 0.04,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 1,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.65,
+    "kelas_prioritas": "Rendah"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.746155,
+      -3.442303
+     ],
+     [
+      114.744169,
+      -3.441635
+     ],
+     [
+      114.742138,
+      -3.441309
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-022",
+    "ruas": "Jl. A. Yani Km 25,0–25,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 25,
+    "km_akhir": 25.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 190,
+    "proporsi_rusak": 0.38,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 3,
+    "k3": 1,
+    "k4": 2,
+    "k5": 3,
+    "skor_saw": 2.45,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.750286,
+      -3.443031
+     ],
+     [
+      114.748193,
+      -3.442797
+     ],
+     [
+      114.746155,
+      -3.442303
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-020",
+    "ruas": "Jl. A. Yani Km 26,0–26,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 26,
+    "km_akhir": 26.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 77,
+    "proporsi_rusak": 0.15,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 778,
+    "k1": 3,
+    "k2": 2,
+    "k3": 3,
+    "k4": 1,
+    "k5": 1,
+    "skor_saw": 2.25,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.758632,
+      -3.443931
+     ],
+     [
+      114.756533,
+      -3.443829
+     ],
+     [
+      114.754454,
+      -3.443511
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-016",
+    "ruas": "Jl. A. Yani Km 28,0–28,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 28,
+    "km_akhir": 28.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Lancar",
+    "panjang_rusak_m": 166,
+    "proporsi_rusak": 0.33,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 2,
+    "k2": 3,
+    "k3": 1,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 1.95,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.775008,
+      -3.447479
+     ],
+     [
+      114.772999,
+      -3.446862
+     ],
+     [
+      114.77099,
+      -3.446249
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-012",
+    "ruas": "Jl. A. Yani Km 30,0–30,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 30,
+    "km_akhir": 30.5,
+    "panjang_m": 500,
+    "jumlah_titik": 4,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 190,
+    "proporsi_rusak": 0.38,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": 1120,
+    "k1": 3,
+    "k2": 3,
+    "k3": 2,
+    "k4": 1,
+    "k5": 2,
+    "skor_saw": 2.35,
+    "kelas_prioritas": "Tinggi"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.791695,
+      -3.449154
+     ],
+     [
+      114.789598,
+      -3.449029
+     ],
+     [
+      114.787501,
+      -3.448902
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-005",
+    "ruas": "Jl. A. Yani Km 33,5–34,0",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 33.5,
+    "km_akhir": 34,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Berat",
+    "kemacetan": "Padat",
+    "panjang_rusak_m": 34,
+    "proporsi_rusak": 0.07,
+    "jumlah_fasilitas_200m": 0,
+    "tambahan_jarak_m": null,
+    "k1": 3,
+    "k2": 1,
+    "k3": 2,
+    "k4": 1,
+    "k5": 3,
+    "skor_saw": 2.2,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.819872,
+      -3.442901
+     ],
+     [
+      114.817968,
+      -3.443713
+     ],
+     [
+      114.816007,
+      -3.444491
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_segmen": "SEG-PL-002",
+    "ruas": "Jl. A. Yani Km 35,0–35,5",
+    "arah": "Pulang",
+    "kecamatan": "Banjarbaru",
+    "km_awal": 35,
+    "km_akhir": 35.5,
+    "panjang_m": 500,
+    "jumlah_titik": 2,
+    "tingkat_kerusakan": "Sedang",
+    "kemacetan": "Macet",
+    "panjang_rusak_m": 68,
+    "proporsi_rusak": 0.14,
+    "jumlah_fasilitas_200m": 1,
+    "tambahan_jarak_m": 929,
+    "k1": 2,
+    "k2": 2,
+    "k3": 3,
+    "k4": 2,
+    "k5": 1,
+    "skor_saw": 2.05,
+    "kelas_prioritas": "Sedang"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      114.832457,
+      -3.442997
+     ],
+     [
+      114.830357,
+      -3.442962
+     ],
+     [
+      114.828256,
+      -3.44293
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "type": "FeatureCollection",
+ "name": "elemen_jaringan",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-01",
+    "nama": "Simpang Jl. Pangeran Antasari",
+    "jenis": "Simpang",
+    "km": 0.3,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.598308,
+     -3.322401
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-02",
+    "nama": "APILL Simpang Km 2",
+    "jenis": "Lampu Lalu Lintas",
+    "km": 2.1,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.611331,
+     -3.329898
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-03",
+    "nama": "U-Turn Km 3,5",
+    "jenis": "U-Turn",
+    "km": 3.5,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.618463,
+     -3.339165
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-04",
+    "nama": "APILL Simpang Km 4,5",
+    "jenis": "Lampu Lalu Lintas",
+    "km": 4.5,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.623488,
+     -3.345901
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-05",
+    "nama": "Simpang Jl. Gubernur Syarkawi",
+    "jenis": "Simpang",
+    "km": 6.8,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.635222,
+     -3.361262
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-06",
+    "nama": "U-Turn Km 8",
+    "jenis": "U-Turn",
+    "km": 8.1,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.641824,
+     -3.369968
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-07",
+    "nama": "APILL Simpang Kertak Hanyar",
+    "jenis": "Lampu Lalu Lintas",
+    "km": 9.7,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.649976,
+     -3.380662
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-08",
+    "nama": "U-Turn Km 12",
+    "jenis": "U-Turn",
+    "km": 12.2,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.662749,
+     -3.397345
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-09",
+    "nama": "APILL Simpang Empat Gambut",
+    "jenis": "Lampu Lalu Lintas",
+    "km": 14,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.671924,
+     -3.409374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-10",
+    "nama": "Bundaran Kilometer 17",
+    "jenis": "Bundaran",
+    "km": 16.4,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.684105,
+     -3.425451
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-11",
+    "nama": "Bundaran Liang Anggang",
+    "jenis": "Bundaran",
+    "km": 19.5,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.700377,
+     -3.445567
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-12",
+    "nama": "APILL Simpang Bandara",
+    "jenis": "Lampu Lalu Lintas",
+    "km": 25.3,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.748623,
+     -3.442769
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-13",
+    "nama": "U-Turn Km 27",
+    "jenis": "U-Turn",
+    "km": 27.4,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.766106,
+     -3.445028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-14",
+    "nama": "Simpang Landasan Ulin",
+    "jenis": "Simpang",
+    "km": 29.8,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.785827,
+     -3.448723
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-15",
+    "nama": "APILL Simpang Km 33",
+    "jenis": "Lampu Lalu Lintas",
+    "km": 33,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.811887,
+     -3.445341
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_elemen": "EJ-16",
+    "nama": "Bundaran Simpang Empat Banjarbaru",
+    "jenis": "Bundaran",
+    "km": 36,
+    "buffer_m": 100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.83666,
+     -3.44301
+    ]
+   }
+  }
+ ]
+}

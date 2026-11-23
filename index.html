@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrokenRoad · Pemetaan Kerusakan Jalan A. Yani</title>
+  <meta name="description" content="WebGIS pemetaan kerusakan dan prioritas perbaikan Jl. A. Yani Banjarmasin–Banjarbaru (metode SAW).">
+  <link rel="icon" href="assets/placeholder-road.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 2. Navbar -->
+  <nav class="navbar">
+    <a href="#" class="brand" aria-label="BrokenRoad beranda">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 2C10.5 2 6 6.4 6 11.9 6 19.3 16 30 16 30s10-10.7 10-18.1C26 6.4 21.5 2 16 2z" fill="#F1F5F9"/>
+        <path d="M13 6h6l2.5 13h-11z" fill="#0B1120"/>
+        <path d="M16 7.5v2.5M16 12v2.5M16 16.5v2" stroke="#F59E0B" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span>BrokenRoad<i class="dot">.</i></span>
+    </a>
+    <div class="nav-links">
+      <a href="#peta">Peta Interaktif</a>
+      <a href="about.html">Tentang Kami</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- 3. Hero & KPI -->
+    <header class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="hero__kicker mono">WebGIS Geoinformatika · Teknologi Informasi FT ULM 2026</p>
+          <h1>Jalan A. Yani bolong? Kami <mark>petakan</mark> lubangnya.</h1>
+          <p class="lead">Lihat di mana saja Jl. A. Yani Banjarmasin–Banjarbaru rusak, seberapa parah kerusakannya, dan ruas mana yang sebaiknya diperbaiki lebih dulu.</p>
+          <dl class="metrics">
+            <div><dt>Koridor pergi–pulang</dt><dd class="mono">36<small> km</small></dd></div>
+            <div><dt>Titik kerusakan</dt><dd class="mono" id="kpi-titik">–</dd></div>
+            <div class="metrics__alert"><dt>Ruas prioritas tinggi</dt><dd class="mono" id="kpi-tinggi">–</dd></div>
+          </dl>
+          <a href="#peta" class="btn-primary">Buka peta interaktif</a>
+        </div>
+
+        <div class="hero__stage">
+          <figure class="route-card">
+            <figcaption class="route-card__head mono"><span><i class="live-dot"></i>Koridor Jl. A. Yani</span><span>Km 0 → 36</span></figcaption>
+            <svg id="hero-map" class="route-map" role="img" aria-label="Peta mini koridor Jl. A. Yani dengan ruas rusak berwarna sesuai prioritas"></svg>
+            <div class="route-card__foot">
+              <span><i class="sw sw--berat"></i>Tinggi</span><span><i class="sw sw--sedang"></i>Sedang</span><span><i class="sw sw--ringan"></i>Rendah</span>
+              <span class="route-card__hint">klik ruas untuk detail</span>
+            </div>
+          </figure>
+
+          <!-- Kartu kaca mengambang, diisi app.js dari GeoJSON -->
+          <button type="button" class="glass chip chip--top" id="hero-top" hidden>
+            <span class="chip__label mono">Paling mendesak</span>
+            <span class="chip__title" id="hero-top-ruas"></span>
+            <span class="chip__meta mono" id="hero-top-meta"></span>
+            <span class="chip__score mono" id="hero-top-score"></span>
+          </button>
+          <div class="glass chip chip--mix" id="hero-mix" hidden>
+            <span class="chip__label mono">Sebaran kerusakan</span>
+            <span class="mix-bar" id="hero-mix-bar"></span>
+            <span class="mix-legend mono" id="hero-mix-legend"></span>
+          </div>        </div>
+      </div>
+      <p class="container hero__quote">“Jalan Rusak berawal dari Jalan Mulus yang di Sakiti”</p>
+    </header>
+
+    <!-- 4 & 5. Filter + Workspace -->
+    <section id="peta" class="container section">
+      <div class="section-head reveal">
+        <p class="section-head__index mono">01 · Peta Interaktif</p>
+        <h2>Kondisi jalan, ruas demi ruas.</h2>
+        <p class="section-head__sub">Saring berdasarkan arah, tingkat kerusakan, atau wilayah. Klik titik atau ruas di peta untuk melihat foto dan detailnya.</p>
+      </div>
+      <div class="card filter-bar" role="search">
+        <div class="filter-group" data-filter="arah">
+          <span class="filter-label">Arah</span>
+          <button class="pill active" data-value="">Semua Arah</button>
+          <button class="pill" data-value="Pergi">Pergi (BJM → BJB)</button>
+          <button class="pill" data-value="Pulang">Pulang (BJB → BJM)</button>
+        </div>
+        <div class="filter-group" data-filter="tingkat">
+          <span class="filter-label">Tingkat</span>
+          <button class="pill active" data-value="">Semua Tingkat</button>
+          <button class="pill" data-value="Berat"><i class="sw sw--berat"></i>Berat</button>
+          <button class="pill" data-value="Sedang"><i class="sw sw--sedang"></i>Sedang</button>
+          <button class="pill" data-value="Ringan"><i class="sw sw--ringan"></i>Ringan</button>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label" for="f-wilayah">Wilayah</label>
+          <select id="f-wilayah" class="input">
+            <option value="">Semua Wilayah</option>
+            <option>Banjarmasin Tengah</option>
+            <option>Banjarmasin Selatan</option>
+            <option>Kertak Hanyar</option>
+            <option>Gambut</option>
+            <option>Banjarbaru</option>
+          </select>
+          <input id="f-search" class="input input--search" type="search" placeholder="Cari ruas (Km 12) atau ID (SEG-PG-024)" aria-label="Cari ruas jalan atau ID segmen">
+        </div>
+      </div>
+
+      <div class="workspace">
+        <!-- Kolom kiri: layer -->
+        <aside class="card panel panel--layers">
+          <h3 class="panel__title">Lapisan Peta</h3>
+          <label class="layer-row"><input type="checkbox" data-layer="titik" checked><i class="lg-dot"></i>Titik Kerusakan</label>
+          <label class="layer-row"><input type="checkbox" data-layer="segmen" checked><i class="lg-line"></i>Prioritas Segmen (500 m)</label>
+          <label class="layer-row"><input type="checkbox" data-layer="elemen"><i class="lg-sq"></i>Elemen Jaringan</label>
+          <label class="layer-row layer-row--sub"><input type="checkbox" id="buffer-elemen">Buffer 100 m</label>
+          <label class="layer-row"><input type="checkbox" data-layer="fasilitas"><i class="lg-ring"></i>Fasilitas Publik &amp; Buffer 200 m</label>
+          <label class="layer-row"><input type="checkbox" data-layer="jalur"><i class="lg-dash"></i>Jalur Alternatif</label>
+
+          <h3 class="panel__title">Peta Dasar</h3>
+          <label class="layer-row"><input type="radio" name="basemap" value="light">Light Gray (Esri Canvas)</label>
+          <label class="layer-row"><input type="radio" name="basemap" value="osm">OpenStreetMap</label>
+          <label class="layer-row"><input type="radio" name="basemap" value="dark" checked>Dark Gray (Esri Canvas)</label>
+        </aside>
+
+        <!-- Kolom tengah: peta -->
+        <div class="map-wrap card">
+          <div id="map" role="application" aria-label="Peta interaktif kerusakan jalan"></div>
+          <div id="map-error" class="map-error" hidden></div>
+        </div>
+
+        <!-- Kolom kanan: daftar & detail -->
+        <aside class="card panel panel--side">
+          <div class="tabs" role="tablist">
+            <button class="tab active" role="tab" data-tab="list" aria-selected="true">Daftar Prioritas <span id="list-count" class="mono count"></span></button>
+            <button class="tab" role="tab" data-tab="detail" aria-selected="false">Detail Objek</button>
+          </div>
+          <div class="tab-body" id="tab-list"></div>
+          <div class="tab-body" id="tab-detail" hidden>
+            <p class="empty">Klik titik atau segmen di peta, atau pilih kartu di Daftar Prioritas.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 7. Footer -->
+  <footer id="tentang" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand brand--light"><span>BrokenRoad<i class="dot">.</i></span></div>
+        <p>Tugas akhir Mata Kuliah Geoinformatika, Program Studi S1 Teknologi Informasi, Fakultas Teknik, Universitas Lambung Mangkurat, 2026.</p>
+      </div>
+      <div>
+        <h4>Tim Penyusun</h4>
+        <ul class="team">
+          <li>Madzharul Ilmi <span class="mono">NIM 2510817210024</span></li>
+          <li>Daffa Dziiba'an Khoiri <span class="mono">NIM 2510817210005</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sumber Data</h4>
+        <ul>
+          <li>Survei lapangan koridor Jl. A. Yani (pergi–pulang)</li>
+          <li>OpenStreetMap via plugin QuickOSM</li>
+          <li>GeoJSON hasil ekspor QGIS 3.x (GeoPackage EPSG:32750 → WGS 84 EPSG:4326 untuk Leaflet)</li>
+        </ul>
+      </div>
+    </div>
+    <p class="container footer-quote">“Cukup jalan yang rusak, hati ku jangan”</p>
+    <p class="container footer-note">Peta dasar © OpenStreetMap contributors, Tiles © Esri. Data pada versi ini adalah sampel ilustratif.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/anim.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,301 @@
+{
+ "type": "FeatureCollection",
+ "name": "fasilitas_publik",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-01",
+    "nama": "RSUD Ulin Banjarmasin",
+    "jenis": "Rumah Sakit",
+    "km": 1.8,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.60965,
+     -3.327877
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-02",
+    "nama": "Pusat Perbelanjaan Km 2",
+    "jenis": "Pasar",
+    "km": 2.4,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.612778,
+     -3.331959
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-03",
+    "nama": "RS Bhayangkara Banjarmasin",
+    "jenis": "Rumah Sakit",
+    "km": 3.6,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.619482,
+     -3.339478
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-04",
+    "nama": "SMA Negeri Km 5",
+    "jenis": "Sekolah",
+    "km": 5.2,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.626107,
+     -3.351303
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-05",
+    "nama": "Kantor Kecamatan Kertak Hanyar",
+    "jenis": "Perkantoran",
+    "km": 8.5,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.644491,
+     -3.372165
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-06",
+    "nama": "Pasar Kertak Hanyar",
+    "jenis": "Pasar",
+    "km": 9.9,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.65048,
+     -3.382393
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-07",
+    "nama": "SMP Negeri 1 Kertak Hanyar",
+    "jenis": "Sekolah",
+    "km": 10.6,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.65564,
+     -3.385854
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-08",
+    "nama": "Pasar Gambut",
+    "jenis": "Pasar",
+    "km": 14.2,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.672158,
+     -3.411308
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-09",
+    "nama": "Puskesmas Gambut",
+    "jenis": "Rumah Sakit",
+    "km": 14.6,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.675718,
+     -3.412818
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-10",
+    "nama": "SMA Negeri 1 Gambut",
+    "jenis": "Sekolah",
+    "km": 15.8,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.680074,
+     -3.422175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-11",
+    "nama": "Kantor Kecamatan Gambut",
+    "jenis": "Perkantoran",
+    "km": 16.4,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.68467,
+     -3.425033
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-12",
+    "nama": "SD Negeri Liang Anggang",
+    "jenis": "Sekolah",
+    "km": 22,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.721271,
+     -3.443706
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-13",
+    "nama": "Kantor Bandara Syamsudin Noor",
+    "jenis": "Perkantoran",
+    "km": 25.6,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.751239,
+     -3.44195
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-14",
+    "nama": "Pasar Landasan Ulin",
+    "jenis": "Pasar",
+    "km": 29.5,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.783248,
+     -3.449716
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-15",
+    "nama": "SMK Negeri Banjarbaru",
+    "jenis": "Sekolah",
+    "km": 32.4,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.806782,
+     -3.446084
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-16",
+    "nama": "Kantor Pemerintahan Banjarbaru",
+    "jenis": "Perkantoran",
+    "km": 34.6,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.824876,
+     -3.443926
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_fasilitas": "FP-17",
+    "nama": "Universitas Lambung Mangkurat Banjarbaru",
+    "jenis": "Sekolah",
+    "km": 35.6,
+    "buffer_m": 200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.833326,
+     -3.44164
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Foto belum tersedia">
+  <rect width="320" height="200" fill="#F1F5F9"/>
+  <path d="M120 200 L148 60 H172 L200 200 Z" fill="#CBD5E1"/>
+  <path d="M160 70 V88 M160 102 V124 M160 140 V170 M160 184 V200" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="181" cy="150" rx="12" ry="5" fill="#64748B"/>
+  <path d="M60 60 L148 60 M172 60 L260 60" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="246" cy="38" r="14" fill="none" stroke="#94A3B8" stroke-width="3"/>
+  <path d="M236 48 L256 28" stroke="#94A3B8" stroke-width="3"/>
+  <text x="160" y="34" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#64748B">Foto dokumentasi belum tersedia</text>
+</svg>
